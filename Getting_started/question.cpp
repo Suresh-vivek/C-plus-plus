@@ -26,6 +26,7 @@ int main(){
       cin >> N;
  
       int n,s;
+      
       while(N > 0){
           cin >>n;
           s=n*n;

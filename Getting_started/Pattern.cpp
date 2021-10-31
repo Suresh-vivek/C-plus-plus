@@ -30,6 +30,7 @@ int main(){
         int col = 1;
 
         if(row%2 !=0){
+            //odd row
             while(col <= row){
                 cout<<1 <<" ";
                 col=col+1;
@@ -37,6 +38,7 @@ int main(){
             
         }
         else{
+            //even row
             cout<<1<<" ";
 
             while(col<= row -2){
