@@ -70,6 +70,9 @@ int main(){
 
     }
 
+
+
+
     
     if(n%2==0 and n%3==0) {
         cout <<n <<" is divisible 2 and 3 both"<<endl;
