@@ -27,5 +27,6 @@ int main(){
         if(num>= -1000 and num <= 1000){
             sum+=num;
         }
+        
     }
 }
