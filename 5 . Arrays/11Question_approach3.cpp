@@ -33,7 +33,8 @@ int main(){
             i++;
         }
         else if(sum == key){
-            cout<<"Pair is present "<<a[i]<<" "<<a[j]<<endl;
+            cout<<"Pair is present "
+            <<a[i]<<" "<<a[j]<<endl;
             i++;
             j--;
             m++;
