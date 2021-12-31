@@ -23,5 +23,5 @@ int main(){
     //Input
     cin>>c[2]; //single row
     cin >> c[3][2]; //single element 
-    cout<<c<<endl;
+    cout<<c<<endl; //it will print address of array
 }

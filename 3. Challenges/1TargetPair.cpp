@@ -25,6 +25,7 @@ first sort the array then apply two pinter method
 #include <iostream>
 using namespace std;
 #include <algorithm> 
+
 int main(){
     int a[1000],n,key,sum;
     cout<<"Enter the number of integers "<<endl;

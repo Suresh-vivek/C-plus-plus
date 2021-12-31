@@ -8,7 +8,7 @@ using namespace std;
 
 
 int main(){
-    cout<<"Enter the number of elements in sub array "<<endl;
+    cout<<"Enter the number of elements in  array "<<endl;
     int n,a[100],maxSum=0,curSum=0;
     cin>>n;
     
