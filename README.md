@@ -1,3 +1,3 @@
 # C++
 
-Learning C++ From Coding Blocks
+Learning C++ From Coding Blocks and Abdul Bari Sir.

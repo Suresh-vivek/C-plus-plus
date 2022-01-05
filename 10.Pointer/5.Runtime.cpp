@@ -21,6 +21,20 @@ int main(){
    */
   cout<<sizeof(b)<<endl; // 4/8 Bytes depending upon system.
 
+  /*
+  If we want to reassign b first we have to delete it then create another array.
+  if we reassign b witout deleting it , the older array will stil exists on the Dynamic
+  Memory and will create a MEMORY LEAK.
+
+  */
+
+   // to delete
+   delete [] b;
+
+   // Reassigning new size
+   b= new int[500];
+
+
 
 
 }

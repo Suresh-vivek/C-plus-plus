@@ -30,7 +30,8 @@ int main(){
     cout<<zptr<<" "<<*zptr<<endl;
      
     cout<<endl;
-    cout<<*xptr +3<<endl;
+    cout<<*xptr +3<<endl; // 4
+    cout<< x+1<<endl;  // represent address of item next to x i.e is v
     /*
     xptr + 1 = zptr
     xptr + 2 -> represent address of 3rd element of x
