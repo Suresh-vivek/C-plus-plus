@@ -138,8 +138,7 @@ int main(){
     ex.insert(6,"ar"); // can be string
     cout<<ex<<endl;
 
-
-   
+    
 
 
    

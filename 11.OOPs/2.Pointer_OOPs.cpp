@@ -36,7 +36,7 @@ int main(){
     p= &r;
 
     // accessing through Pointers
-    p -> length = 15;
+    p -> length = 15; // it will re-assign length to 15
     p -> breadth = 20;
     cout<< p -> area()<<endl;
 

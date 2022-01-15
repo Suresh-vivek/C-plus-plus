@@ -10,6 +10,20 @@ class Rectangle{
 
     public:
 
+    // Constructors
+    Rectangle(int length,int breadth){
+        this->length= length;
+        this->breadth= breadth;
+    }
+
+
+    // Copy Constructor
+    Rectangle(Rectangle &r){
+        length = r.length;
+        breadth = r.breadth;
+    }
+
+
     void setLength(int l){
         if(l >=0 ){
             length =l;
@@ -49,31 +63,9 @@ class Rectangle{
     }
     
 
-    /*
-    set and get function are property function
-    get____ -> Accessors
-    set____ -> Mutators
-    */
 };
 
 int main(){
-    Rectangle r;
-    int l,b;
-
-    cout<<"Enter the length "<<endl;
-    cin>>l;
-    
-    cout<<"Enter the breadth "<<endl;
-    cin>>l;
-
-
-    r.setLength(l);
-    r.setBreadth(b);
-
-    cout<<"Length is "<<l<<endl;
-    cout<<"Breadth is "<<b<<endl;
-
-    cout<< "Area is "<<r.area()<<endl;
-    cout<<"Perimeter is "<<r.perimeter()<<endl;
-
+    Rectangle r(10,5);
 }
+

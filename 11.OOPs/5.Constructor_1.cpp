@@ -1,3 +1,5 @@
+//Non-Parameterized Constructor
+
 #include <iostream>
 using namespace std;
 
@@ -9,6 +11,13 @@ class Rectangle{
     int breadth;
 
     public:
+
+    // Constructors
+    Rectangle(){
+        length =1;
+        breadth =1;
+    }
+
 
     void setLength(int l){
         if(l >=0 ){
@@ -57,6 +66,10 @@ class Rectangle{
 };
 
 int main(){
+
+    // Accessing constructor
+    Rectangle r1; // l=0,b=0
+
     Rectangle r;
     int l,b;
 
@@ -74,6 +87,7 @@ int main(){
     cout<<"Breadth is "<<b<<endl;
 
     cout<< "Area is "<<r.area()<<endl;
+    cout<< r1.area()<<endl;// Area is 1
     cout<<"Perimeter is "<<r.perimeter()<<endl;
 
 }
